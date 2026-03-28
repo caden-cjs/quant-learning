@@ -14,7 +14,8 @@
 | Step 6 | RSI（相对强弱指标） | ✅ 完成 |
 | Step 7 | MACD（指数平滑异同移动平均线） | ✅ 完成 |
 | Step 8 | 布林带（Bollinger Bands） | ✅ 完成 |
-| Step 9 | 多指标组合策略 | 🔲 待开始 |
+| Step 9 | 多指标组合策略 | ✅ 完成 |
+| Step 10 | 风险指标（最大回撤、夏普比率） | ✅ 完成 |
 
 ## ⭐ quant_utils 工具模块
 
@@ -25,6 +26,8 @@
 ```bash
 pip install pandas numpy matplotlib
 ```
+
+## 🎉 学习完成！
 
 Happy Learning! 🚀
 
