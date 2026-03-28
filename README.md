@@ -13,17 +13,12 @@
 | Step 5 | 简单回测逻辑 | ✅ 完成 |
 | Step 6 | RSI（相对强弱指标） | ✅ 完成 |
 | Step 7 | MACD（指数平滑异同移动平均线） | ✅ 完成 |
-| Step 8 | 布林带 | 🔲 待开始 |
+| Step 8 | 布林带（Bollinger Bands） | ✅ 完成 |
+| Step 9 | 多指标组合策略 | 🔲 待开始 |
 
 ## ⭐ quant_utils 工具模块
 
-所有 Step 统一使用工具模块，代码更简洁：
-
-```python
-from quant_utils import generate_stock_data, add_ma
-df = generate_stock_data(days=60)  # 一行生成数据
-df = add_ma(df, periods=[5, 20])   # 一行添加 MA
-```
+所有 Step 统一使用工具模块，代码更简洁。
 
 ## 🛠️ 环境要求
 
@@ -32,3 +27,4 @@ pip install pandas numpy matplotlib
 ```
 
 Happy Learning! 🚀
+
